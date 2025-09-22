@@ -36,12 +36,6 @@ transcription = asr(audio_file)
 print(transcription['text'])
 ```
 
-## Supported File Formats
-
-- WAV
-
-- MP3 (convert to WAV for best results)
-
 ## Notes
 
 Evaluation: The model has been evaluated on a held-out test set, not included in the training data.
