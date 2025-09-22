@@ -1,6 +1,6 @@
 # ASR French Model
 
-This repository contains an Automatic Speech Recognition (ASR) model fine-tuned on French audio data. The model aims to provide accurate transcription of French speech into text. This repository includes the fine-tuned model and details for usage, along with example results.
+This repository contains the training notebook of the Automatic Speech Recognition (ASR) model fine-tuned on French audio data. The model aims to provide accurate transcription of French speech into text. This repository includes the fine-tuned model and details for usage, along with example results.
 
 For more information, visit my [Hugging Face Profile](https://huggingface.co/nambn0321).
 
