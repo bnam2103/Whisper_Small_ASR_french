@@ -38,6 +38,6 @@ print(transcription['text'])
 
 ## Notes
 
-Evaluation: The model has been evaluated on a held-out test set, not included in the training data.
+- Evaluation: The model has been evaluated on a held-out test set, not included in the training data.
 
-Model Improvements: Ongoing work is focused on improving the transcription accuracy, especially in noisy environments.
+- Model Improvements: Ongoing work is focused on improving the transcription accuracy, especially in noisy environments.
