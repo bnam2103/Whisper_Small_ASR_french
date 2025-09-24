@@ -23,14 +23,20 @@ Try the [ASR French Model Demo](https://huggingface.co/spaces/nambn0321/ASR_fren
 - **WER (Word Error Rate):** Measures the percentage of words incorrectly predicted.
 - **CER (Character Error Rate):** Measures the percentage of characters incorrectly predicted.
 
-Using CV17 as test set (16000 samples)
+### **Test Set: CV17 (16k samples)**
 | Model                      | WER (lower is better)     | CER (lower is better)   |
-|---------------------------|-----------|-----------|
+|----------------------------|---------------------------|-------------------------|
 | [**Whisper Small** (baseline)](https://huggingface.co/openai/whisper-small)  | 0.3405    | 0.1680    |
-| [**Whisper Medium** (baseline)](https://huggingface.co/openai/whisper-medium)| 0.2597    | 0.1264    |
+| [**Whisper Medium** (baseline)](https://huggingface.co/openai/whisper-medium) | 0.2597    | 0.1264    |
 | **My Model**                  | 0.1648    | 0.0676    |
 
-**Test_set** is MLS
+### **Test Set: MLS (2426 samples)**
+| Model                      | WER (lower is better)     | CER (lower is better)   |
+|----------------------------|---------------------------|-------------------------|
+| [**Whisper Small** (baseline)](https://huggingface.co/openai/whisper-small)  | 0.3271    | 0.1066    |
+| **Bofenghuang**              | 0.3020    | 0.1024    |
+| [**Whisper Medium** (baseline)](https://huggingface.co/openai/whisper-medium) | 0.2974    | 0.0919    |
+| **My Model**                 | 0.3269    | 0.1013    |
 
 ## Usage
 ```python
