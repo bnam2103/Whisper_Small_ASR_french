@@ -34,7 +34,6 @@ Try the [ASR French Model Demo](https://huggingface.co/spaces/nambn0321/ASR_fren
 | Model                      | WER (lower is better)     | CER (lower is better)   |
 |----------------------------|---------------------------|-------------------------|
 | [**Whisper Small** (baseline)](https://huggingface.co/openai/whisper-small)  | 0.3271    | 0.1066    |
-| **Bofenghuang**              | 0.3020    | 0.1024    |
 | [**Whisper Medium** (baseline)](https://huggingface.co/openai/whisper-medium) | 0.2974    | 0.0919    |
 | **My Model**                 | 0.3269    | 0.1013    |
 
