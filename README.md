@@ -24,7 +24,9 @@ Try the [ASR French Model Demo](https://huggingface.co/spaces/nambn0321/ASR_fren
 - **CER (Character Error Rate):** Measures the percentage of characters incorrectly predicted.
 
 **Results**
+
 Test_set is CV17
+
 | Model                      | WER (lower is better)     | CER (lower is better)   |
 |---------------------------|-----------|-----------|
 | [**Whisper Small** (baseline)](https://huggingface.co/openai/whisper-small)  | 0.3405    | 0.1680    |
