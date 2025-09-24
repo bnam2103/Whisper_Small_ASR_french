@@ -20,7 +20,16 @@ Try the [ASR French Model Demo](https://huggingface.co/spaces/nambn0321/ASR_fren
 
 ## Model Performance
 
-input here later
+- **WER (Word Error Rate):** Measures the percentage of words incorrectly predicted.
+- **CER (Character Error Rate):** Measures the percentage of characters incorrectly predicted.
+
+**Results**
+Test_set is CV17
+| Model                      | WER (lower is better)     | CER (lower is better)   |
+|---------------------------|-----------|-----------|
+| [**Whisper Small** (baseline)](https://huggingface.co/openai/whisper-small)  | 0.3405    | 0.1680    |
+| [**Whisper Medium** (baseline)](https://huggingface.co/openai/whisper-medium)| 0.2597    | 0.1264    |
+| **My Model**                  | 0.1648    | 0.0676    |
 
 ## Usage
 ```python
